@@ -104,13 +104,13 @@ async def download_coroutine(session, url, file_name, event, start, bot):
         await event.edit(
             """**Initiating Download**
 
-**URL:** {}
+**🌍 URL:** {}
 
-**File Name:** {}
+**📁 File Name:** {}
 
-**File Size:** {}
+**🗂 File Size:** {}
 
-**@Optimus_Prime_Pro_Bot**""".format(
+**@Atrocious_Mirror_Bot**""".format(
                 url,
                 os.path.basename(file_name).replace("%20", " "),
                 humanbytes(total_length)),
@@ -137,13 +137,13 @@ async def download_coroutine(session, url, file_name, event, start, bot):
                             total_length = downloaded
                         current_message = """Downloading : {}%
 
-URL: {}
+🌍 URL: {}
 
-File Name: {}
+📁File Name: {}
 
-File Size: {}
-Downloaded: {}
-ETA: {}""".format(
+🗂 File Size: {}
+📥 Downloaded: {}
+⏰ ETA: {}""".format(
                             "%.2f" % (percentage),
                             url,
                             file_name.split("/")[-1],
