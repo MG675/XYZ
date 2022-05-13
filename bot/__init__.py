@@ -9,7 +9,6 @@ import faulthandler
 import json
 import qbittorrentapi as qba
 import telegram.ext as tg
-import aria2p
 
 from telethon import TelegramClient
 from pyrogram import Client
