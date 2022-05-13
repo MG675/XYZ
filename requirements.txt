@@ -1,5 +1,4 @@
 aiohttp
-aria2p
 anytree
 appdirs
 attrdict
@@ -26,7 +25,6 @@ qbittorrent-api
 requests
 speedtest-cli
 telegraph
-telethon
 tenacity
 TgCrypto
 torrentool==1.1.0
