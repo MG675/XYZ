@@ -2,6 +2,8 @@
 
 # Dont use my drive token.pickle and credentials.json. Upload your own drive files. 
 
+# Mirror Bot Group:  https://t.me/+Xwwi7toV4YsyMWJl
+
 ✳ Atrocious_Mirror_Bot.
 
 ✳ Before deploying you must need to collect all required config and token.pickle and credentials.json. 
